@@ -1,0 +1,38 @@
+.destaque
+{
+    background-color: #dd6321;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.card img
+{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card
+{
+    background-color: #fbebc9;
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 30px 20px;
+}
+
+.card h4
+{
+    text-align: center;
+    font-family: SeasonPrime;
+    font-size: 30px;
+    padding: 15px;
+    color: #340d08;
+}
+
+.card p
+{
+    font-family: ComicNeue;
+    font-size: 15px;
+    padding: 10px 15px;
+}
