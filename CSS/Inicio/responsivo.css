@@ -1,5 +1,10 @@
 @media(max-width: 770px)
 {
+    body
+    {
+        max-width: 1900px;
+    }
+
     /*HEADER*/
     
     header
@@ -99,7 +104,7 @@
     /*BANNER*/
     .banner
     {
-        height: 24vh;
+        height: 100%;
     }
 
     .banner .BannerAlt
@@ -116,6 +121,12 @@
     /*SOBRE*/
     .sobre
     {
+        padding: 20px 0px;
+    }
+
+    .sobreConteudo
+    {
+        width: 350px;
         flex-direction: column;
         display: flex;
         align-items: center;
@@ -138,10 +149,17 @@
     {
         width: 300px;
         text-align: center;
+        padding: 10px;
     }
 
     .membros
     {
+        padding: 20px 0px;
+    }
+
+    .membrosConteudo
+    {
+        width: 350px;
         flex-direction: column-reverse;
         display: flex;
         align-items: center;
@@ -164,6 +182,7 @@
     {
         width: 300px;
         text-align: center;
+        padding: 10px;
     }
 
     .membrosText h3, .sobreText h3

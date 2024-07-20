@@ -7,11 +7,18 @@
     padding: 30px;
 }
 
+.sobreConteudo
+{
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+}
+
 .sobre img
 {
     border-radius: 100%;
-    height: 300px;
-    width: 300px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .sobreOthers
@@ -25,7 +32,9 @@
 .sobreText
 {
     padding: 20px;
-    width: 750px;
+    max-width: 750px;
+    min-width: 300px;
+    text-wrap: wrap;
 }
 
 .sobreText h3
