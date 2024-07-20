@@ -109,6 +109,7 @@
 
     .banner .BannerCelular
     {
+        display: flex;
        height: 190px; 
     }
 
