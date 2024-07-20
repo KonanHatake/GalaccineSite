@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-content: center;
     padding: 30px;
+    flex-wrap: wrap;
 }
 
 .card img

@@ -1,0 +1,243 @@
+@media(max-width: 770px)
+{
+    /*HEADER*/
+    
+    header
+    {
+        height: 10vh;
+    }
+
+    header a, header nav
+    {
+        display: none;
+    }
+
+    header .logo
+    {
+        margin: 10px 0;
+    }
+
+    header .hamburguer 
+    {
+        display: inline-block;
+        padding: 20px 0px 20px 200px;
+    }
+      
+    .bar1, .bar2, .bar3 
+    {
+        width: 35px;
+        height: 5px;
+        background-color: #fbebc9;
+        margin: 6px 0;
+    }
+      
+    .closeButton .bar1 
+    {
+        transform: translate(0, 5px) rotate(-44deg);
+    }
+      
+    .closeButton .bar3 
+    {
+        transform: translate(0, -5px) rotate(45deg);
+    }
+
+    .closeButton
+    {
+        position: absolute;
+        top: 45px;
+        right: 30px;
+    }
+
+    .overlay 
+    {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #b84218;
+        z-index: 2;
+        padding: 0px 0px 0px; /* Ajuste conforme necessário */
+        box-sizing: border-box;
+        font-family: NexaFont;
+        font-weight: bold;
+    }
+
+    .overlay.active 
+    {
+        display: block; /* Mostra o overlay quando a classe 'active' é adicionada */
+    }
+
+    .overlay a 
+    {
+        display: block;
+        padding: 30px 20px;
+        font-size: 18px;
+        color: #fbebc9;
+        text-decoration: none;
+        font-family: ChildrenSans;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .overlayButtons
+    {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .canal
+    {
+        margin: 10px;
+        padding: 3px 5px;
+    }
+
+    /*BANNER*/
+    .banner
+    {
+        height: 24vh;
+    }
+
+    .banner .BannerAlt
+    {
+        display: none;
+    }
+
+    .banner .BannerCelular
+    {
+       height: 190px; 
+    }
+
+    /*SOBRE*/
+    .sobre
+    {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre img
+    {
+        width: 150px;
+        height: 150px;
+    }
+
+    .sobreOthers
+    {
+        justify-content: center;
+        width: 330px;
+    }
+
+    .sobreText
+    {
+        width: 300px;
+        text-align: center;
+    }
+
+    .membros
+    {
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .membros img
+    {
+        width: 150px;
+        height: 150px;
+    }
+
+    .membrosOthers
+    {
+        justify-content: center;
+        width: 330px;
+    }
+
+    .membrosText
+    {
+        width: 300px;
+        text-align: center;
+    }
+
+    .membrosText h3, .sobreText h3
+    {
+        font-size: 41px;
+    }
+
+    .membrosText p, .sobreText p
+    {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .membrosButtonSM, .sobreButtonSM
+    {
+        left: 0;
+        margin: auto;
+        font-size: 25px;
+        padding: 10px 10px 15px;
+        width: 100px;
+    }
+
+    .card
+    {
+        height: 500px;
+        width: 300px;
+        margin: 20px 0px;
+    }
+
+    .card img
+    {
+        height: 170px;
+        width: 300px;
+    }
+
+    .card h4
+    {
+        font-size: 35px;
+    }
+
+    .card p
+    {
+        font-size: 17px;
+    }
+
+    .redesSociais .title
+    {
+        padding: 10px;
+    }
+
+    .redesSociais
+    {
+        width: 300px;
+    }
+
+    .redesSociais a
+    {
+        height: 35px;
+    }
+
+    .redesSociais img
+    {
+        height: 35px;
+        width: 35px;
+    }
+
+    footer .buttons
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .buttons a
+    {
+        padding: 10px;
+    }
+}

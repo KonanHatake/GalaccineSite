@@ -3,6 +3,18 @@ header {
     justify-content: space-around;
     background-color: #b84218;
     height: 10vh;
+    max-width: 100%;
+}
+
+header .hamburguer, header .overlay
+{
+    display: none;
+}
+
+.closeButton
+{
+    z-index: 3;
+    display: none;
 }
 
 nav {

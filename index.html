@@ -16,11 +16,37 @@
             <a href="">VIDEOS</a>
             <a href="">CONTATO</a>
         </nav>
-        <a href="https://www.youtube.com/@Galaccine/" class="canal"><img src="./Imagens/Youtube Icon.png" alt="Youtube Icon" height="40px" width="40px" class="imgYT"></a>
+        <a href="https://www.youtube.com/@Galaccine/" class="canal">
+            <img src="./Imagens/Youtube Icon.png" alt="Youtube Icon" height="40px" width="40px" class="imgYT">
+        </a>
+
+        <!-- BOTÃO HAMBURGUER PARA O MOBILE -->
+        <div class="hamburguer" onclick="toggleMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <!-- Botões do menu hamburguer -->
+        <div class="overlay" id="overlay">
+            <div class="closeButton" id="hamburguer" onclick="fechar()">
+                <div class="bar1" id="bar1"></div>
+                <div class="bar3" id="bar3"></div>
+            </div>
+            <div class="overlayButtons">
+                <a href="">INICIO</a>
+                <a href="">SOBRE</a>
+                <a href="">MEMBROS</a>
+                <a href="">VIDEOS</a>
+                <a href="">CONTATO</a>
+                <a href="https://www.youtube.com/@Galaccine/" class="canal"><img src="./Imagens/Youtube Icon.png" alt="Youtube Icon" height="40px" width="40px" class="imgYT"></a>
+            </div>
+        </div>
     </header>
 
     <section class="banner">
-        <img src="./Imagens/BannerAlt.png" alt="" width="100%" height="400px">
+        <img src="./Imagens/BannerAlt.png" alt="" width="100%" height="400px" class="BannerAlt">
+
+        <img src="./Imagens/BannerCelular.png" alt="" width="100%" height="400px" class="BannerCelular">
     </section>
 
     <section class="sobre">
@@ -97,5 +123,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="/JS/script.js"></script>
 </body>
 </html>

@@ -2,3 +2,8 @@
 {
    height: 45vh; 
 }
+
+.BannerCelular
+{
+    display: none;
+}

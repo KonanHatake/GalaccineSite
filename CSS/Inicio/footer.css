@@ -23,6 +23,11 @@ footer .buttons
     width: 618px;
 }
 
+footer a:hover
+{
+    color: white;
+}
+
 .redesSociais .title
 {
     display: flex;
