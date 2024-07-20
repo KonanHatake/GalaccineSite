@@ -1,0 +1,34 @@
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./sobre.css);
+@import url(./membros.css);
+@import url(./destaque.css);
+@import url(./footer.css);
+@import url(./responsivo.css);
+
+
+@font-face {
+    font-family: PhantomStorm;
+    src: url(../Fonts/PhantomStorm.ttf);
+}
+
+@font-face {
+    font-family: SeasonPrime;
+    src: url(../Fonts/SeasonPrime.otf);
+}
+
+@font-face {
+    font-family: ComicNeue;
+    src: url(../Fonts/ComicNeueSansID.ttf);
+}
+
+@font-face {
+    font-family: ChildrenSans;
+    src: url(../Fonts/ChildrenSans.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,62 @@
+.membros
+{
+    background-color: #f69262;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+
+.membros img
+{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+.membrosOthers
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.membrosText
+{
+    padding: 20px;
+    width: 750px;
+    text-align: right;
+}
+
+.membrosText h3
+{
+    font-family: SeasonPrime;
+    font-size: 50px;
+    color: #340d08;
+}
+
+.membrosText p 
+{
+    font-family: ComicNeue;
+    font-size: 15px;
+}
+
+.membrosButtonSM
+{
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    position: relative;
+    left: 665px;
+    margin: 0px 15px;
+    padding: 10px;
+    width: 72px;
+    height: 18px;
+    text-decoration: none;
+    background-color: #340d08;
+    color: #fbebc9;
+    font-family: ChildrenSans;
+    text-align: center;
+    font-size: 17px;
+}
