@@ -1,0 +1,79 @@
+.h3PC
+{
+    display: block;
+}
+
+.h3CELL, .h4CELL
+{
+    display: none;
+}
+
+.Era1
+{
+    background-image: url(../../../Imagens/BannerEras/BannerUTFanDubs.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1900px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+
+.Era1Conteudo
+{
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+}
+
+.Era1 img
+{
+    border-radius: 20px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.Era1Others
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.Era1Text
+{
+    padding: 20px;
+    max-width: 750px;
+    min-width: 300px;
+    text-wrap: wrap;
+}
+
+.Era1Text h3
+{
+    font-family: ComicSans;
+    font-size: 30px;
+    color: #4cfff6;
+}
+
+.Era1Text p 
+{
+    color: #4cfff6;
+    font-family: ComicNeue;
+    font-size: 15px;
+}
+
+.Era1 .h3CELL
+{
+    font-family: SeasonPrime;
+    font-size: 35px;
+    color: #4cfff6;
+}
+
+.Era1 .h4CELL
+{
+    font-family: SeasonPrime;
+    font-size: 35px;
+    color: #4cfff6;
+}

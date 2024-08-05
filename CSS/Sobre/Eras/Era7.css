@@ -1,0 +1,61 @@
+.h3PC
+{
+    display: block;
+}
+
+.h3CELL, .h4CELL
+{
+    display: none;
+}
+
+.Era7
+{
+    background-color: #fff5c8;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+
+.Era7Conteudo
+{
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+}
+
+.Era7 img
+{
+    border-radius: 20px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.Era7Others
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.Era7Text
+{
+    padding: 20px;
+    max-width: 750px;
+    min-width: 300px;
+    text-wrap: wrap;
+}
+
+.Era7Text h3
+{
+    font-family: SeasonPrime;
+    font-size: 35px;
+    color: #340d08;
+}
+
+.Era7Text p 
+{
+    font-family: ComicNeue;
+    font-size: 15px;
+}

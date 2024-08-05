@@ -1,0 +1,58 @@
+@import url(../Sobre/header.css);
+@import url(../Sobre/banner.css);
+@import url(../Sobre/Eras/Era1.css);
+@import url(../Sobre/Eras/Era2.css);
+@import url(../Sobre/Eras/Era3.css);
+@import url(../Sobre/Eras/Era4.css);
+@import url(../Sobre/Eras/Era5.css);
+@import url(../Sobre/Eras/Era6.css);
+@import url(../Sobre/Eras/Era7.css);
+@import url(../Sobre/footer.css);
+@import url(../Sobre/responsivo.css);
+
+@font-face {
+    font-family: PhantomStorm;
+    src: url(../Fonts/PhantomStorm.ttf);
+}
+
+@font-face {
+    font-family: SeasonPrime;
+    src: url(../Fonts/SeasonPrime.otf);
+}
+
+@font-face {
+    font-family: ComicSans;
+    src: url(../Fonts/ComicSans.ttf);
+}
+
+@font-face {
+    font-family: AchoneItalic;
+    src: url(../Fonts/AchoneItalic.otf);
+}
+
+@font-face {
+    font-family: CodeProLight;
+    src: url(../Fonts/CodeProLight.otf);
+}
+
+@font-face {
+    font-family: ChildrenSans;
+    src: url(../Fonts/ChildrenSans.ttf);
+}
+
+@font-face {
+    font-family: PirateScroll;
+    src: url(../Fonts/PirateScroll.otf);
+}
+
+@font-face {
+    font-family: Madina;
+    src: url(../Fonts/Madina.otf);
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}

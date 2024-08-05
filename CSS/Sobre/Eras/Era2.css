@@ -1,0 +1,67 @@
+.h3PC
+{
+    display: block;
+}
+
+.h3CELL, .h4CELL
+{
+    display: none;
+}
+
+.Era2
+{
+    background-image: url(../../../Imagens/BannerEras/BannerGalaxyDubs.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1900px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+
+.Era2Conteudo
+{
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+}
+
+.Era2 img
+{
+    border-radius: 20px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.Era2Others
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.Era2Text
+{
+    padding: 20px;
+    max-width: 750px;
+    min-width: 300px;
+    text-align: right;
+    text-wrap: wrap;
+}
+
+.Era2Text h3
+{
+    font-family: AchoneItalic;
+    font-size: 35px;
+    color: #e694ff;
+}
+
+.Era2Text p 
+{
+    color: #e694ff;
+    font-family: ComicNeue;
+    font-size: 15px;
+}

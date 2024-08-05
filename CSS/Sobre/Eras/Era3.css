@@ -1,0 +1,65 @@
+.h3PC
+{
+    display: block;
+}
+
+.h3CELL, .h4CELL
+{
+    display: none;
+}
+
+.Era3
+{
+    background-image: url(../../../Imagens/BannerEras/BannerDeluxe.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1900px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+
+.Era3Conteudo
+{
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+}
+
+.Era3 img
+{
+    border-radius: 20px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.Era3Others
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.Era3Text
+{
+    padding: 20px;
+    max-width: 750px;
+    min-width: 300px;
+    text-wrap: wrap;
+}
+
+.Era3Text h3
+{
+    font-family: CodeProLight;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.Era3Text p 
+{
+    font-family: ComicNeue;
+    font-size: 15px;
+}

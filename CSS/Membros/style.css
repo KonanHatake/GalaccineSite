@@ -1,11 +1,8 @@
-@import url(../Inicio/header.css);
-@import url(../Inicio/banner.css);
-@import url(../Inicio/sobre.css);
-@import url(../Inicio/membros.css);
-@import url(../Inicio/destaque.css);
-@import url(../Inicio/footer.css);
-@import url(../Inicio/responsivo.css);
-
+@import url(../Membros/header.css);
+@import url(../Membros/banner.css);
+@import url(../Membros/cards.css);
+@import url(../Membros/footer.css);
+@import url(../Membros/responsivo.css);
 
 @font-face {
     font-family: PhantomStorm;

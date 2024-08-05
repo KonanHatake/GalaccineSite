@@ -1,0 +1,67 @@
+.h3PC
+{
+    display: block;
+}
+
+.h3CELL, .h4CELL
+{
+    display: none;
+}
+
+.Era4
+{
+    background-image: url(../../../Imagens/BannerEras/BannerNewWorld.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1900px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+
+.Era4Conteudo
+{
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+}
+
+.Era4 img
+{
+    border-radius: 20px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.Era4Others
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.Era4Text
+{
+    padding: 20px;
+    max-width: 750px;
+    min-width: 300px;
+    text-align: right;
+    text-wrap: wrap;
+}
+
+.Era4Text h3
+{
+    font-family: PirateScroll;
+    font-size: 30px;
+    color: #cefffd;
+}
+
+.Era4Text p 
+{
+    color: #cefffd;
+    font-family: ComicNeue;
+    font-size: 15px;
+}

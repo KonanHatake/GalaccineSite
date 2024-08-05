@@ -1,0 +1,61 @@
+.h3PC
+{
+    display: block;
+}
+
+.h3CELL, .h4CELL
+{
+    display: none;
+}
+
+.Era5
+{
+    background-color: #611caf;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+
+.Era5Conteudo
+{
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+}
+
+.Era5 img
+{
+    border-radius: 20px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.Era5Others
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.Era5Text
+{
+    padding: 20px;
+    max-width: 750px;
+    min-width: 300px;
+    text-wrap: wrap;
+}
+
+.Era5Text h3
+{
+    font-family: Madina;
+    font-size: 35px;
+    color: #1d0834;
+}
+
+.Era5Text p 
+{
+    font-family: ComicNeue;
+    font-size: 15px;
+}
