@@ -27,6 +27,16 @@
     src: url(../Fonts/ChildrenSans.ttf);
 }
 
+@font-face {
+    font-family: BlackFire;
+    src: url(../Fonts/BlackFire.ttf);
+}
+
+@font-face {
+    font-family: Technovia;
+    src: url(../Fonts/Technott.ttf);
+}
+
 *
 {
     margin: 0;

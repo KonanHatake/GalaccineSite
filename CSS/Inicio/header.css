@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-around;
-    background-color: #b84218;
+    background-color: #ffffff;
     height: 10vh;
     max-width: 100%;
 }
@@ -24,10 +24,10 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #fbebc9;
+    color: #000000;
     padding: 0px 15px;
     align-content: center;
-    font-family: ChildrenSans;
+    font-family: BlackFire;
     font-size: 23px;
     position: relative;
     overflow: hidden;
@@ -39,7 +39,7 @@ nav a::after {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #fbebc9;
+    background-color: #7a7a7a;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%) scaleX(0);
@@ -49,7 +49,7 @@ nav a::after {
 
 nav a:hover
 {
-    color: #fff;
+    color: #5c5c5c;
 }
 
 nav a:hover::after {
@@ -59,7 +59,7 @@ nav a:hover::after {
 header .logo {
     margin: 10px;
     border-radius: 100%;
-    background-color: #fbebc9;
+    background-color: #ffffff;
 }
 
 header .imgYT {
